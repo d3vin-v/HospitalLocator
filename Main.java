@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Main {
 	public static void main(String[] args) {
 
@@ -12,9 +14,22 @@ class Main {
 		CityInAustralia c9 = new InlandCity("Wagga Wagga", 64820, 29.2);
 		CityInAustralia c10 = new InlandCity("Alice Springs", 29534, 5);
 		
-		
+		ArrayList<CityInAustralia> cities = new ArrayList<CityInAustralia>();
+		cities.add(c1);
+		cities.add(c2);
+		cities.add(c3);
+		cities.add(c4);
+		cities.add(c5);
+		cities.add(c6);
+		cities.add(c7);
+		cities.add(c8);
+		cities.add(c9);
+		cities.add(c10);
 		
 		System.out.println("Name" + "\t\t" + "Population" + "\t" + "Distance" + "\t" + "Coastal or Inland?");
-		System.out.println(c1 + "\n" + c2 + "\n" + c3 + "\n" + c4 + "\n" + c5 + "\n" + c6 + "\n" + c7 + "\n" + c8 + "\n" + c9 + "\n" + c10);
+//		System.out.println(c1 + "\n" + c2 + "\n" + c3 + "\n" + c4 + "\n" + c5 + "\n" + c6 + "\n" + c7 + "\n" + c8 + "\n" + c9 + "\n" + c10);
+		for(int i = 0; i < cities.size(); i++) {
+			System.out.println(cities.get(i));
+		}
 	}
 }
