@@ -1,10 +1,10 @@
 public class InlandCity extends CityInAustralia{
 	private String name;
 	private int pop;
-	private int distance;
+	private double distance;
 	String output = "";
 	
-	public InlandCity(String n, int p, int d) {
+	public InlandCity(String n, int p, double d) {
 		super(n, p, d);
 		name = n;
 		pop = p;
@@ -13,9 +13,14 @@ public class InlandCity extends CityInAustralia{
 	}
 	
 	public String toString() {
-		output += name + "\t";
-		output += pop + "\t" + "\t";
-		output += distance + "\t" + "\t";
+		output += name;
+		if(name.length() < 7) {
+			output += "\t\t";
+		}else if(name.length() >= 7) {
+			output += "\t";
+		}
+		output += pop + "\t\t";
+		output += distance + "\t\t";
 		output += "Inland";
 		
 		return output;

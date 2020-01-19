@@ -1,26 +1,19 @@
 class CityInAustralia {
 	private String name;
 	private int pop;
-	private int distance;
-//	private boolean coastal;
+	private double distance;
 	private String output = "";
 
-	public CityInAustralia(String n, int p, int d) {
+	public CityInAustralia(String n, int p, double d) {
 		name = n;
 		pop = p;
 		distance = d;
-//		coastal = c;
 	}
 	
 	public String toString() {
 		output += name + "\t";
 		output += pop + "\t";
 		output += distance + "\t";
-//		if(coastal) {
-//			output += "Coastal";
-//		}else if(!coastal) {
-//			output += "Inland";
-//		}
 		return output;
 	}
 	
