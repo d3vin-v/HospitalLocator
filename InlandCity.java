@@ -1,10 +1,10 @@
-public class CoastalCity extends CityInAustralia{
+public class InlandCity extends CityInAustralia{
 	private String name;
 	private int pop;
 	private int distance;
 	String output = "";
-
-	public CoastalCity(String n, int p, int d) {
+	
+	public InlandCity(String n, int p, int d) {
 		super(n, p, d);
 		name = n;
 		pop = p;
@@ -16,8 +16,9 @@ public class CoastalCity extends CityInAustralia{
 		output += name + "\t";
 		output += pop + "\t" + "\t";
 		output += distance + "\t" + "\t";
-		output += "Coastal";
+		output += "Inland";
 		
 		return output;
 	}
+
 }
