@@ -2,6 +2,8 @@ import java.util.*;
 
 class Main {
 	public static void main(String[] args) {
+		
+		//mount archer park, hospital named after city
 
 		CityInAustralia c1 = new CoastalCity("Darwin", 148564, .6);
 		CityInAustralia c2 = new CoastalCity("Sydney", 5230000, 10.5);
