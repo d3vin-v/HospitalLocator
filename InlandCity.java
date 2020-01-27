@@ -1,14 +1,10 @@
+import java.util.ArrayList;
+
 public class InlandCity extends CityInAustralia{
-	private String name;
-	private int pop;
-	private double distance;
 	String output = "";
 	
-	public InlandCity(String n, int p, double d) {
-		super(n, p, d);
-		name = n;
-		pop = p;
-		distance = d;
+	public InlandCity(String n, int p, double d, ArrayList h, ArrayList pa) {
+		super(n, p, d, h, pa);
 		
 	}
 	

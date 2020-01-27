@@ -1,10 +1,12 @@
+import java.util.*;
+
 class CityInAustralia {
-	private String name;
-	private int pop;
-	private double distance;
+	protected String name;
+	protected int pop;
+	protected double distance;
 	private String output = "";
 
-	public CityInAustralia(String n, int p, double d) {
+	public CityInAustralia(String n, int p, double d, ArrayList h, ArrayList b) {
 		name = n;
 		pop = p;
 		distance = d;

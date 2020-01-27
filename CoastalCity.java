@@ -1,14 +1,10 @@
+import java.util.ArrayList;
+
 public class CoastalCity extends CityInAustralia{
-	private String name;
-	private int pop;
-	private double distance;
 	String output = "";
 
-	public CoastalCity(String n, int p, double d) {
-		super(n, p, d);
-		name = n;
-		pop = p;
-		distance = d;
+	public CoastalCity(String n, int p, double d, ArrayList h, ArrayList b) {
+		super(n, p, d, h, b);
 		
 	}
 	
