@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class InlandCity extends CityInAustralia{
 	String output = "";
 	
-	public InlandCity(String n, int p, double d, ArrayList h, ArrayList pa) {
+	public InlandCity(String n, int p, double d, ArrayList<Hospitals> h, ArrayList<Parks> pa) {
 		super(n, p, d, h, pa);
 		
 	}

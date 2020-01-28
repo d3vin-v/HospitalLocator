@@ -1,8 +1,17 @@
+import java.util.*;
 
 public class Hospitals {
+	private String name;
 
 	public Hospitals() {
-		// TODO Auto-generated constructor stub
+		
+	}
+	public Hospitals(String n) {
+		name = n;
+	}
+	
+	public static void hospsAdd() {
+		
 	}
 
 }

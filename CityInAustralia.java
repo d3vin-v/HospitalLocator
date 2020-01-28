@@ -6,7 +6,7 @@ class CityInAustralia {
 	protected double distance;
 	private String output = "";
 
-	public CityInAustralia(String n, int p, double d, ArrayList h, ArrayList b) {
+	public CityInAustralia(String n, int p, double d, ArrayList<Hospitals> h, ArrayList b) {
 		name = n;
 		pop = p;
 		distance = d;
