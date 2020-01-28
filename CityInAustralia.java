@@ -12,6 +12,10 @@ class CityInAustralia {
 		distance = d;
 	}
 	
+	public String getName(CityInAustralia a) {
+		return name;
+	}
+	
 	public String toString() {
 		output += name + "\t";
 		output += pop + "\t";
