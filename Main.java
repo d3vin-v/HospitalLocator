@@ -34,9 +34,12 @@ class Main {
 		
 		
 		System.out.println("Name" + "\t\t" + "Population" + "\t" + "Distance" + "\t" + "Coastal or Inland?");
-//		System.out.println(c1 + "\n" + c2 + "\n" + c3 + "\n" + c4 + "\n" + c5 + "\n" + c6 + "\n" + c7 + "\n" + c8 + "\n" + c9 + "\n" + c10);
 		for(int i = 0; i < cities.size(); i++) {
 			System.out.println(cities.get(i));
 		}
+		
+//		Hospitals.hospsFind(cities){
+//			
+//		}
 	}
 }

@@ -12,7 +12,7 @@ class CityInAustralia {
 		distance = d;
 	}
 	
-	public String getName(CityInAustralia a) {
+	public String getName() {
 		return name;
 	}
 	
